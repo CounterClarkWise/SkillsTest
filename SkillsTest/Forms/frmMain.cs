@@ -46,10 +46,6 @@ namespace SkillsTest
                 MessageBox.Show(MainMessages.NoStrategyErrorText, MainMessages.NoStrategyErrorCaption, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 cbStrategy.Focus();
             }
-
-            //Validation for re-typing in textbox
-            //tbString.Text = "";
-            //MainVar.InitialString = "";
         }
         #endregion
         #region Events
